@@ -1,0 +1,24 @@
+type Category {
+	id:ID
+	name:String!
+}	
+
+input CategoryDTO {
+	id:ID
+	name:String!
+}
+
+extend type Query {
+
+	category(id:ID):Category
+	
+	categories: [Category]!
+}
+
+extend type Mutation {
+
+	saveCategory(category:CategoryDTO!):Category!
+	
+	deleteCategory(id:ID):Boolean
+
+}

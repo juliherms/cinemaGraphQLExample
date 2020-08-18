@@ -1,0 +1,31 @@
+
+type Movie {
+	id:ID
+	name:String!
+	category:Category
+}
+
+input MovieDTO {
+	id:ID
+	name:String!
+	categoryId:Float!
+}
+
+schema {
+	query: Query
+	mutation: Mutation
+}
+
+
+type Query {
+
+	movie(id:ID):Movie
+	movies: [Movie]!
+}
+
+type Mutation {
+
+	saveMovie(movie:MovieDTO!):Movie!
+	deleteMovie(id:ID):Boolean
+
+}

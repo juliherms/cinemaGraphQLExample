@@ -15,7 +15,7 @@ import com.example.cinema.service.CategoryService;
 /**
  * Component responsible to implement GraphQL Interface.
  * 
- * @author j.a.vasconcelos
+ * @author Juliherms Vasconcelos
  *
  */
 @Component

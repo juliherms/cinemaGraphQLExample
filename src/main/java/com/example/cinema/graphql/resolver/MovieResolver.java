@@ -7,7 +7,7 @@ import com.example.cinema.entity.Movie;
 
 /**
  * Class responsible to resolver object Buy for GraphQL
- * @author j.a.vasconcelos
+ * @author Juliherms Vasconcelos
  *
  */
 @Component

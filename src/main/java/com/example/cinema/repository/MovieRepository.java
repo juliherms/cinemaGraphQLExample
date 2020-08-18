@@ -7,7 +7,7 @@ import com.example.cinema.entity.Movie;
 
 /**
  * This class represents Movie repository
- * @author j.a.vasconcelos
+ * @author Juliherms Vasconcelos
  *
  */
 @Repository

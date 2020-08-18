@@ -15,7 +15,7 @@ import com.example.cinema.service.MovieService;
 /**
  * Component responsible to implement GraphQL Interface.
  * 
- * @author j.a.vasconcelos
+ * @author Juliherms Vasconcelos
  *
  */
 @Component

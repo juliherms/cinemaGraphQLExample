@@ -7,7 +7,7 @@ import com.example.cinema.entity.Category;
 
 /**
  * Class represents Category Repository
- * @author j.a.vasconcelos
+ * @author Juliherms Vasconcelos
  *
  */
 @Repository

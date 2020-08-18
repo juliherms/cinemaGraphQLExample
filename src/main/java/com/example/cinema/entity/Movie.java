@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 /**
  * This class responsible to represents Movies
  * 
- * @author j.a.vasconcelos
+ * @author Juliherms Vasconcelos
  *
  */
 @Data
